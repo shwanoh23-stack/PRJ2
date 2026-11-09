@@ -1,0 +1,11 @@
+{
+  "name": "activity-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "액티비티 마이크로서비스 (포트 3002) - 영업 활동 기록/조회 및 파이프라인별 활동 수 검증",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

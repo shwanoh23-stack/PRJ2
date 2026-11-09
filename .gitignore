@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Local SQLite database files (auto-created & seeded on startup)
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Temporary test data & OS/Editor lock files
+tests/tmp_data/
+tests/tmp_unit_data/
+~$*
+.DS_Store
+Thumbs.db
+*.log

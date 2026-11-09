@@ -1,0 +1,11 @@
+{
+  "name": "pipeline-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "파이프라인 마이크로서비스 (포트 3001) - 파이프라인 CRUD, 상태 전이, 30일 미활동 판별, 삭제 검증",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

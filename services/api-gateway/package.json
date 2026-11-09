@@ -1,0 +1,11 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API Gateway (포트 3000) - 단일 진입점, 라우팅 및 JSON 로깅",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}
